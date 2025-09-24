@@ -10,14 +10,18 @@
     }
 
     main section#login div#img {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
 
     main section#login div#form {
-        float: right;
+        float: left;
         width: 70%;
+    }
+
+    main section#login div#form p {
+        font-size: 0.9em;
     }
 }
 
@@ -31,13 +35,21 @@
     }
 
     main section#login div#img {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
 
     main section#login div#form {
-        float: right;
+        float: left;
         width: 60%;
+    }
+
+    main section#login div#form h1 {
+        font-size: 2em;
+    }
+
+    main section#login div#form p {
+        font-size: 1em;
     }
 }
