@@ -5,15 +5,9 @@
         background-image: linear-gradient(to top, gray, rgb(56, 56, 56));
     }
 
-    main {
-        position: relative;
-    }
-
     main section#login {
         width: 90vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        height: 350px;
     }
 
     main section#login div#img {
@@ -28,7 +22,8 @@
     }
 
     main section#login div#form p {
-        font-size: 0.9em;
+        font-size: 1em;
+        margin: 15px 0px;
     }
 }
 
@@ -37,15 +32,9 @@
         background-image: linear-gradient(to top, gray, rgb(56, 56, 56));
     }
 
-    main {
-        position: relative;
-    }
-
     main section#login {
         width: 950px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        height: 350px;
     }
 
     main section#login div#img {
@@ -65,5 +54,6 @@
 
     main section#login div#form p {
         font-size: 1em;
+        margin: 15px 0px;
     }
 }
