@@ -23,7 +23,6 @@ main section#login {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -34,6 +33,7 @@ main section#login {
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 main section#login div#img {
@@ -60,13 +60,36 @@ main section#login div#form p {
 
 main section#login div#form div#campo {
     background-color: gray;
+    border: 2px solid gray;
     height: 40px;
     border-radius: 10px;
     margin: 5px 0px;
 }
 
+main section#login div#form div#campo input:focus-within {
+    background-color: white;
+}
+
 main section#login div#form div#campo label {
     display: none;
+}
+
+main section#login div#form div#campo span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+main section#login div#form div#campo input {
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    border: 0px;
+    border-radius: 10px;
+    padding: 4px;
+    width: calc(100% - 45px);
+    transform: translateY(-13px);
 }
 
 main section#login div#form form > input[type=submit] {
